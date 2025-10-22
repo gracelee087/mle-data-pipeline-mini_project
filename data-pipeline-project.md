@@ -1,4 +1,6 @@
-1. Data Pipeline Project: NYC Green Taxi Revenue Report
+<Data Pipeline Project: NYC Green Taxi Revenue Report>
+
+1. What are the steps you took to complete the project?
 
 1-1. Data Ingestion and GCS Staging (Task 1)
 - Scripting: I wrote the data_ingestion_green.py script.
