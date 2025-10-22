@@ -1,5 +1,4 @@
-Data Pipeline Project: NYC Green Taxi Revenue Report
-
+1. Data Pipeline Project: NYC Green Taxi Revenue Report
 
 1) Data Ingestion and GCS Staging (Task 1)
 - Scripting: I wrote the data_ingestion_green.py script.
@@ -7,8 +6,8 @@ Data Pipeline Project: NYC Green Taxi Revenue Report
 
 2) Data Processing and Calculation (Task 2 - T)
 - Environment Setup: I set up a Google Cloud Dataproc cluster (green-taxi-cluster).
--Script Execution: I ran the PySpark script, revenue_report_green.py, on the cluster.
--Calculation: The script combined all data to calculate the daily total revenue by pickup zone (PULocationID). The results were saved back to GCS in the revenue_reports/daily_revenue folder.
+- Script Execution: I ran the PySpark script, revenue_report_green.py, on the cluster.
+- Calculation: The script combined all data to calculate the daily total revenue by pickup zone (PULocationID). The results were saved back to GCS in the revenue_reports/daily_revenue folder.
 
 3) Final Report Loading (Task 2 - L)
 - BigQuery Setup: I created a BigQuery dataset (nyc_green_taxi_analysis).
@@ -16,7 +15,6 @@ Data Pipeline Project: NYC Green Taxi Revenue Report
 
 
 2. What Challenges Did I Face?
-The biggest problems involved cloud permissions, argument handling, and ensuring data completeness.
 
 1) Dataproc IAM Permission Failure (Major Hurdle):
 - The Dataproc cluster repeatedly failed due to missing GCS read/write permissions.
